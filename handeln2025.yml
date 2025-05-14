@@ -1,0 +1,16 @@
+name: handeln2025
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10.13
+  - pip
+  - pip:
+      - psychopy==2025.1.0
+      - numpy
+      - scipy
+      - matplotlib
+      - pandas
+      - notebook
+      - control
+      - ipython
